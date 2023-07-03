@@ -1,3 +1,14 @@
+function submitForm(event) {
+    event.preventDefault ();
+    let inputchilometri=document.getElementById("inputchilometri").value;
+}
+
+function submitForm(event) {
+    event.preventDefault ();
+    let inputchilometri=document.getElementById("inputetapassenger").value;
+}
+
+
 // chiedo all'utente il numero di chilometri che vuole percorrere e l'età del passeggero (con i prompt() in questo caso)
 
 let numerochilometri= prompt (" inserisci il numero di chilometri che devi fare");
