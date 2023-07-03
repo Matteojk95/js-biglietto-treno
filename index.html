@@ -27,14 +27,14 @@
         <div class=" container bg-white text-center w-75 text-dark form-control border-success">
             <form class="row g-3 mt-3 pt-3">
                 <div class="col-md-4">
-                    <label for="inputEmail4" class="form-label">Nome e cognome</label>
+                    <label for="inputnamesurname" class="form-label">Nome e cognome</label>
                     <input type="email" class="form-control" id="inputnamesurname" onsubmit="submitForm(event)">
                 </div>
                 <div class="col-md-4 ">
-                    <label for="inputPassword4" class="form-label">Km da percorrere</label>
+                    <label for="inputchilometri" class="form-label">Km da percorrere</label>
                     <input type="chilometri" class="form-control" id="inputchilometri" onsubmit="submitForm(event)">
                 </div>
-                <select class=" col-md-4" id="inputetapassenger" onsubmit="submitForm(event)">
+                <select class=" col-md-4" id="inputetapassenger" label for="inputetapassenger" onsubmit="submitForm(event)">
                     <option selected> Maggiorenne</option>
                     <option value="1"> Minorenne </option>
                     
