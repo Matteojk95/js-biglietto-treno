@@ -15,10 +15,10 @@ let etapassenger= document.getElementById("inputetapassenger").value;
 
 let pricevoyage= (inputchilometri *0,21);
 
-if (etapasseggero <= 18) {
-    pricevoyage* 20 / 100
-} else if (etapasseggero >= 65) {
-    pricevoyage* 40 / 100
+if (etapassenger < 18) {
+    pricevoyage * 20 / 100
+} else if (etapassenger > 65) {
+    pricevoyage * 40 / 100
 } else {
     pricevoyage
 }
