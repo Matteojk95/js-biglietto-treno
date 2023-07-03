@@ -9,9 +9,9 @@ numerochilometri=parseInt (numerochilometri);
 il prezzo del biglietto è definito in base ai km (0.21 € al km)
 */
 
-let numerochilometri= document.getElementById("inputchilometri").value;
+let numerochilometriinput= document.getElementById("inputchilometri").value;
 
-let pricevoyage= (inputchilometri*0,21);
+let pricevoyage= (numerochilometriinput *0,21);
 
 if (etapasseggero <= 18) {
     pricevoyage* 20 / 100
